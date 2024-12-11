@@ -9,7 +9,7 @@ import numpy as np
 import math
 from scipy.spatial import KDTree
 
-import mast3r.utils.path_to_dust3r  # noqa
+import src.models.mast3r.mast3r.utils.path_to_dust3r  # noqa
 from dust3r.utils.device import to_numpy, todevice  # noqa
 
 

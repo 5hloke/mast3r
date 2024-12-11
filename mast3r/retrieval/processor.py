@@ -9,8 +9,8 @@ import argparse
 import numpy as np
 import torch
 
-from mast3r.model import AsymmetricMASt3R
-from mast3r.retrieval.model import RetrievalModel, extract_local_features
+from src.models.mast3r.mast3r.model import AsymmetricMASt3R
+from src.models.mast3r.mast3r.retrieval.model import RetrievalModel, extract_local_features
 
 try:
     import faiss
